@@ -32,7 +32,7 @@
 			<div class="container">
 				<div class="header-wrapper">
 					<div class="m-header">
-						<a href="index.html" class="b-brand">
+						<a href="{{ route('index') }}" class="b-brand">
 							<!-- ========   change your logo hear   ============ -->
 							<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
 						</a>
@@ -51,11 +51,11 @@
 											<span>Dashboard</span>
 										</a>
 										<div class="dropdown-menu pc-h-dropdown">
-											<a href="index.html" class="dropdown-item">
+											<a href="{{ route('index') }}" class="dropdown-item">
 												<i class="fas fa-circle"></i>
 												<span>Sales</span>
 											</a>
-											<a href="dashboard-analytics.html" class="dropdown-item">
+											<a href="{{ route('dashboard_analytics') }}" class="dropdown-item">
 												<i class="fas fa-circle"></i>
 												<span>Analytics</span>
 											</a>
@@ -67,28 +67,28 @@
 											<span>Layouts</span>
 										</a>
 										<div class="dropdown-menu pc-h-dropdown">
-											<a href="layout-collapse.html" class="dropdown-item">
+											<a href="{{ route('layout_collapse') }}" class="dropdown-item">
 												<span>Collapse</span>
 											</a>
-											<a href="layout-horizontal.html" class="dropdown-item">
+											<a href="{{ route('layout_horizontal') }}" class="dropdown-item">
 												<span>Horizontal</span>
 											</a>
-											<a href="layout-horizontal2.html" class="dropdown-item">
+											<a href="{{ route('layout_horizontal2') }}" class="dropdown-item">
 												<span>Horizontal v2</span>
 											</a>
-											<a href="layout-modern.html" class="dropdown-item">
+											<a href="{{ route('layout_modern') }}" class="dropdown-item">
 												<span>Modern</span>
 											</a>
-											<a href="layout-advance.html" class="dropdown-item">
+											<a href="{{ route('layout_advance') }}" class="dropdown-item">
 												<span>Advance</span>
 											</a>
-											<a href="layout-topbar.html" class="dropdown-item">
+											<a href="{{ route('layout_topbar') }}" class="dropdown-item">
 												<span>Topbar</span>
 											</a>
-											<a href="layout-tab.html" class="dropdown-item">
+											<a href="{{ route('layout_tab') }}" class="dropdown-item">
 												<span>Tab</span>
 											</a>
-											<a href="layout-nested.html" class="dropdown-item">
+											<a href="{{ route('layout_nested') }}" class="dropdown-item">
 												<span>Nested</span>
 											</a>
 										</div>
@@ -99,13 +99,13 @@
 											<span>Widget</span>
 										</a>
 										<div class="dropdown-menu pc-h-dropdown">
-											<a href="widget-statistic.html" class="dropdown-item">
+											<a href="{{ route('widget_statistic') }}" class="dropdown-item">
 												<span>Statistic</span>
 											</a>
-											<a href="widget-data.html" class="dropdown-item">
+											<a href="{{ route('widget_data') }}" class="dropdown-item">
 												<span>Data</span>
 											</a>
-											<a href="widget-chart.html" class="dropdown-item">
+											<a href="{{ route('widget_chart') }}" class="dropdown-item">
 												<span>Chart</span>
 											</a>
 										</div>
@@ -116,16 +116,16 @@
 											<span>User</span>
 										</a>
 										<div class="dropdown-menu pc-h-dropdown">
-											<a href="user-profile.html" class="dropdown-item">
+											<a href="{{ route('user_profile') }}" class="dropdown-item">
 												<span>Profile</span>
 											</a>
-											<a href="user-profile-social.html" class="dropdown-item">
+											<a href="{{ route('user_profile-social') }}" class="dropdown-item">
 												<span>Social Profile</span>
 											</a>
-											<a href="user-card.html" class="dropdown-item">
+											<a href="{{ route('user_card') }}" class="dropdown-item">
 												<span>User Card</span>
 											</a>
-											<a href="user-list.html" class="dropdown-item">
+											<a href="{{ route('user_list') }}" class="dropdown-item">
 												<span>User List</span>
 											</a>
 										</div>
@@ -142,50 +142,50 @@
 										<div class="col">
 											<h6 class="mega-title">Forms</h6>
 											<ul class="pc-mega-list">
-												<li><a href="form_elements.html" class="dropdown-item"><i data-feather="user"></i><span>Form Basic</span></a></li>
-												<li><a href="form2_basic.html" class="dropdown-item"><i data-feather="settings"></i><span>Form Options</span></a></li>
-												<li><a href="form2_input_group.html" class="dropdown-item"><i data-feather="life-buoy"></i><span>Input Groups</span></a></li>
-												<li><a href="form2_checkbox.html" class="dropdown-item"><i data-feather="lock"></i><span>Checkbox</span></a></li>
-												<li><a href="form2_radio.html" class="dropdown-item"><i data-feather="power"></i><span>Radio</span></a></li>
-												<li><a href="form2_switch.html" class="dropdown-item"><i data-feather="lock"></i><span>Switch</span></a></li>
-												<li><a href="form2_megaoption.html" class="dropdown-item"><i data-feather="settings"></i><span>Mega option</span></a></li>
+												<li><a href="{{ route('form_elements') }}" class="dropdown-item"><i data-feather="user"></i><span>Form Basic</span></a></li>
+												<li><a href="{{ route('form2_basic') }}" class="dropdown-item"><i data-feather="settings"></i><span>Form Options</span></a></li>
+												<li><a href="{{ route('form2_input_group') }}" class="dropdown-item"><i data-feather="life-buoy"></i><span>Input Groups</span></a></li>
+												<li><a href="{{ route('form2_checkbox') }}" class="dropdown-item"><i data-feather="lock"></i><span>Checkbox</span></a></li>
+												<li><a href="{{ route('form2_radio') }}" class="dropdown-item"><i data-feather="power"></i><span>Radio</span></a></li>
+												<li><a href="{{ route('form2_switch') }}" class="dropdown-item"><i data-feather="lock"></i><span>Switch</span></a></li>
+												<li><a href="{{ route('form2_megaoption') }}" class="dropdown-item"><i data-feather="settings"></i><span>Mega option</span></a></li>
 											</ul>
 										</div>
 										<div class="col">
 											<h6 class="mega-title">UI Components</h6>
 											<ul class="pc-mega-list">
-												<li><a href="bc_alert.html" class="dropdown-item"><i class="fas fa-circle"></i> Alert</a></li>
-												<li><a href="bc_button.html" class="dropdown-item"><i class="fas fa-circle"></i> Button</a></li>
-												<li><a href="bc_badges.html" class="dropdown-item"><i class="fas fa-circle"></i> Badges</a></li>
-												<li><a href="bc_breadcrumb-pagination.html" class="dropdown-item"><i class="fas fa-circle"></i> Breadcrumb & paggination</a></li>
-												<li><a href="bc_card.html" class="dropdown-item"><i class="fas fa-circle"></i> Cards</a></li>
-												<li><a href="bc_collapse.html" class="dropdown-item"><i class="fas fa-circle"></i> Collapse</a></li>
-												<li><a href="bc_carousel.html" class="dropdown-item"><i class="fas fa-circle"></i> Carousel</a></li>
+												<li><a href="{{ route('bc_alert') }}" class="dropdown-item"><i class="fas fa-circle"></i> Alert</a></li>
+												<li><a href="{{ route('bc_button') }}" class="dropdown-item"><i class="fas fa-circle"></i> Button</a></li>
+												<li><a href="{{ route('bc_badges') }}" class="dropdown-item"><i class="fas fa-circle"></i> Badges</a></li>
+												<li><a href="{{ route('bc_breadcrumb_pagination') }}" class="dropdown-item"><i class="fas fa-circle"></i> Breadcrumb & paggination</a></li>
+												<li><a href="{{ route('bc_card') }}" class="dropdown-item"><i class="fas fa-circle"></i> Cards</a></li>
+												<li><a href="{{ route('bc_collapse') }}" class="dropdown-item"><i class="fas fa-circle"></i> Collapse</a></li>
+												<li><a href="{{ route('bc_carousel') }}" class="dropdown-item"><i class="fas fa-circle"></i> Carousel</a></li>
 											</ul>
 										</div>
 										<div class="col">
 											<h6 class="mega-title">UI Components</h6>
 											<ul class="pc-mega-list">
-												<li><a href="bc_progress.html" class="dropdown-item"><i class="fas fa-circle"></i> Progress</a></li>
-												<li><a href="bc_modal.html" class="dropdown-item"><i class="fas fa-circle"></i> Modal</a></li>
-												<li><a href="bc_spinner.html" class="dropdown-item"><i class="fas fa-circle"></i> Spinner</a></li>
-												<li><a href="bc_tabs.html" class="dropdown-item"><i class="fas fa-circle"></i> Tabs & pills</a></li>
-												<li><a href="bc_typography.html" class="dropdown-item"><i class="fas fa-circle"></i> Typography</a></li>
-												<li><a href="bc_toasts.html" class="dropdown-item"><i class="fas fa-circle"></i> Toasts</a></li>
-												<li><a href="bc_extra.html" class="dropdown-item"><i class="fas fa-circle"></i> Other</a></li>
+												<li><a href="{{ route('bc_progress') }}" class="dropdown-item"><i class="fas fa-circle"></i> Progress</a></li>
+												<li><a href="{{ route('bc_modal') }}" class="dropdown-item"><i class="fas fa-circle"></i> Modal</a></li>
+												<li><a href="{{ route('bc_spinner') }}" class="dropdown-item"><i class="fas fa-circle"></i> Spinner</a></li>
+												<li><a href="{{ route('bc_tabs') }}" class="dropdown-item"><i class="fas fa-circle"></i> Tabs & pills</a></li>
+												<li><a href="{{ route('bc_typography') }}" class="dropdown-item"><i class="fas fa-circle"></i> Typography</a></li>
+												<li><a href="{{ route('bc_toasts') }}" class="dropdown-item"><i class="fas fa-circle"></i> Toasts</a></li>
+												<li><a href="{{ route('bc_extra') }}" class="dropdown-item"><i class="fas fa-circle"></i> Other</a></li>
 											</ul>
 										</div>
 										<div class="col">
 											<h6 class="mega-title">Advance Components</h6>
 											<ul class="pc-mega-list">
-												<li><a class="dropdown-item" href="ac_alert.html"><i class="fas fa-circle"></i> Sweet alert</a></li>
-												<li><a class="dropdown-item" href="ac-datepicker-componant.html"><i class="fas fa-circle"></i> Datepicker</a></li>
-												<li><a class="dropdown-item" href="ac_lightbox.html"><i class="fas fa-circle"></i> Lightbox</a></li>
-												<li><a class="dropdown-item" href="ac_notification.html"><i class="fas fa-circle"></i> Notification</a></li>
-												<li><a class="dropdown-item" href="ac_pnotify.html"><i class="fas fa-circle"></i> Pnotify</a></li>
-												<li><a class="dropdown-item" href="ac_rating.html"><i class="fas fa-circle"></i> Rating</a></li>
-												<li><a class="dropdown-item" href="ac_rangeslider.html"><i class="fas fa-circle"></i> Rangeslider</a></li>
-												<li><a class="dropdown-item" href="ac_syntax_highlighter.html"><i class="fas fa-circle"></i> Syntax highlighter</a></li>
+												<li><a class="dropdown_item" href="route('ac_alert') }}"><i class="fas fa-circle"></i> Sweet alert</a></li>
+												<li><a class="dropdown_item" href="route('ac-datepicker_componant') }}"><i class="fas fa-circle"></i> Datepicker</a></li>
+												<li><a class="dropdown_item" href="route('ac_lightbox') }}"><i class="fas fa-circle"></i> Lightbox</a></li>
+												<li><a class="dropdown_item" href="route('ac_notification') }}"><i class="fas fa-circle"></i> Notification</a></li>
+												<li><a class="dropdown_item" href="route('ac_pnotify') }}"><i class="fas fa-circle"></i> Pnotify</a></li>
+												<li><a class="dropdown_item" href="route('ac_rating') }}"><i class="fas fa-circle"></i> Rating</a></li>
+												<li><a class="dropdown_item" href="route('ac_rangeslider') }}"><i class="fas fa-circle"></i> Rangeslider</a></li>
+												<li><a class="dropdown_item" href="route('ac_syntax_highlighter') }}"><i class="fas fa-circle"></i> Syntax highlighter</a></li>
 											</ul>
 										</div>
 									</div>

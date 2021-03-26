@@ -18,7 +18,7 @@
                             <h5 class="m-b-10">Widget statistic</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Widget</a></li>
                             <li class="breadcrumb-item">Widget statistic</li>
                         </ul>

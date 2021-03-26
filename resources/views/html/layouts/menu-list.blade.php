@@ -393,7 +393,7 @@
 		<li class="pc-item"><a class="pc-link" href="{{ route('email_compose') }}">Compose mail</a></li>
 	</ul>
 </li>
-<li class="pc-item"><a href="{{ route('email-v2') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">mark_email_unread</i></span><span class="pc-mtext">Email v2</span></a></li>
+<li class="pc-item"><a href="{{ route('email_v2') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">mark_email_unread</i></span><span class="pc-mtext">Email v2</span></a></li>
 <li class="pc-item pc-hasmenu">
 	<a href="#!" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">assignment</i></span><span class="pc-mtext">Task</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 	<ul class="pc-submenu">
@@ -419,8 +419,8 @@
 <li class="pc-item pc-hasmenu">
 	<a href="#!" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">contact_support</i></span><span class="pc-mtext">Faq</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 	<ul class="pc-submenu">
-		<li class="pc-item"><a class="pc-link" href="{{ route('page-faq') }}">Faq 1</a></li>
-		<li class="pc-item"><a class="pc-link" href="{{ route('page-faq2') }}">Faq 2</a></li>
+		<li class="pc-item"><a class="pc-link" href="{{ route('page_faq') }}">Faq 1</a></li>
+		<li class="pc-item"><a class="pc-link" href="{{ route('page_faq2') }}">Faq 2</a></li>
 		<li class="pc-item pc-hasmenu">
 			<a class="pc-link" href="#!">Faq 3<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 			<ul class="pc-submenu">
@@ -439,7 +439,7 @@
 		<li class="pc-item"><a class="pc-link" href="{{ route('page_invoice_list') }}">Invoice List</a></li>
 	</ul>
 </li>
-<li class="pc-item"><a href="{{ route('full-calendar') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">today</i></span><span class="pc-mtext">Full calendar</span></a></li>
+<li class="pc-item"><a href="{{ route('full_calendar') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">today</i></span><span class="pc-mtext">Full calendar</span></a></li>
 <li class="pc-item pc-caption">
 	<label>Other</label>
 	<span>Extra more things</span>

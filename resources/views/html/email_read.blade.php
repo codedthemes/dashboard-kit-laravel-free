@@ -22,7 +22,7 @@
                             <h5 class="m-b-10">View Email</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Email</a></li>
                             <li class="breadcrumb-item">View Email</li>
                         </ul>
@@ -71,7 +71,7 @@
                                 <div class="col-xl-2 col-md-3 mail-left">
                                     <div class="mail-l-content">
                                         <div class="mb-3">
-                                            <a href="email_compose.html" class="btn  btn-rounded btn-outline-primary">+ Compose</a>
+                                            <a href="{{route('email_compose')}}" class="btn  btn-rounded btn-outline-primary">+ Compose</a>
                                         </div>
                                         <ul class="mb-2 nav nav-tab flex-column nav-pills">
                                             <li class="nav-item mail-section">

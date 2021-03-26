@@ -17,7 +17,7 @@
                         <h5>Sample Page</h5>
                     </div>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html"><i data-feather="home"></i></a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('index') }}"><i data-feather="home"></i></a></li>
                         <li class="breadcrumb-item">Sample Page</li>
                     </ul>
                 </div>

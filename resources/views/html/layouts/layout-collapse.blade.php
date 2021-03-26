@@ -34,7 +34,7 @@
 	<nav class="pc-sidebar @@menuclass">
 		<div class="navbar-wrapper">
 			<div class="m-header">
-				<a href="index.html" class="b-brand">
+				<a href="{{ route('index') }}" class="b-brand">
 					<!-- ========   change your logo hear   ============ -->
 					<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
 					<img src="assets/images/logo-sm-light.svg" alt="" class="logo logo-sm">
@@ -48,7 +48,7 @@
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link">Dashboard<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="index.html">Sales</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('index') }}">Sales</a></li>
 									<li class="pc-item"><a class="pc-link" href="dashboard-analytics.html">Analytics</a></li>
 								</ul>
 							</li>

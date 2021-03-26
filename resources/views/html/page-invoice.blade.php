@@ -18,7 +18,7 @@
 							<h5 class="m-b-10">Invoice</h5>
 						</div>
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							<li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
 							<li class="breadcrumb-item"><a href="#!">Invoice</a></li>
 							<li class="breadcrumb-item">Invoice</li>
 						</ul>
@@ -43,7 +43,7 @@
 												<table class="table table-responsive invoice-table table-borderless">
 													<tbody>
 														<tr>
-															<td><a href="index.html"><img class="img-fluid" src="assets/images/logo-dark.svg" alt="Nextro Logo"></a>
+															<td><a href="{{ route('index') }}"><img class="img-fluid" src="assets/images/logo-dark.svg" alt="Nextro Logo"></a>
 															</td>
 														</tr>
 														<tr>

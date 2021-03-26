@@ -19,7 +19,7 @@
                             <h5 class="m-b-10">Bootstrap Datepicker</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Form Components</a></li>
                             <li class="breadcrumb-item">Bootstrap Datepicker</li>
                         </ul>

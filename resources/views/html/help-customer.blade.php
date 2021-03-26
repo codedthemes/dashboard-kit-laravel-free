@@ -24,7 +24,7 @@
                             <h5 class="m-b-10">Customers</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Helpdesk</a></li>
                             <li class="breadcrumb-item">Customers</li>
                         </ul>

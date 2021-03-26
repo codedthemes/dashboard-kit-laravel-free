@@ -19,7 +19,7 @@
                             <h5 class="m-b-10">CKEditor Document</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Form Text Editors</a></li>
                             <li class="breadcrumb-item"><a href="#!">CKEditor</a></li>
                             <li class="breadcrumb-item">CKEditor Document</li>

@@ -17,7 +17,7 @@
                             <h5 class="m-b-10">Invoice List</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Invoice</a></li>
                             <li class="breadcrumb-item">Invoice List</li>
                         </ul>
@@ -260,7 +260,7 @@
                                         <p class="task-due"><strong> Due : </strong><strong class="label label-primary">23 hours</strong></p>
                                     </div>
                                     <div class="task-board m-0 float-end">
-                                        <a href="invoice.html" class="btn  btn-primary"><i class="fas fa-eye m-0"></i></a>
+                                        <a href="{{route('invoice')}}" class="btn  btn-primary"><i class="fas fa-eye m-0"></i></a>
                                         <div class="dropdown-secondary dropdown d-inline">
                                             <button class="btn  btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
                                             <div class="dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -312,7 +312,7 @@
                                         <p class="task-due"><strong> Due : </strong><strong class="label label-success">23 hours</strong></p>
                                     </div>
                                     <div class="task-board m-0 float-end">
-                                        <a href="invoice.html" class="btn  btn-success"><i class="fas fa-eye m-0"></i></a>
+                                        <a href="{{route('invoice')}}" class="btn  btn-success"><i class="fas fa-eye m-0"></i></a>
                                         <div class="dropdown-secondary dropdown d-inline">
                                             <button class="btn  btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
                                             <div class="dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -364,7 +364,7 @@
                                         <p class="task-due"><strong> Due : </strong><strong class="label label-danger">23 hours</strong></p>
                                     </div>
                                     <div class="task-board m-0 float-end">
-                                        <a href="invoice.html" class="btn  btn-danger"><i class="fas fa-eye m-0"></i></a>
+                                        <a href="{{route('invoice')}}" class="btn  btn-danger"><i class="fas fa-eye m-0"></i></a>
                                         <div class="dropdown-secondary dropdown d-inline">
                                             <button class="btn  btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
                                             <div class="dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -416,7 +416,7 @@
                                         <p class="task-due"><strong> Due : </strong><strong class="label label-warning">23 hours</strong></p>
                                     </div>
                                     <div class="task-board m-0 float-end">
-                                        <a href="invoice.html" class="btn  btn-warning"><i class="fas fa-eye m-0"></i></a>
+                                        <a href="{{route('invoice')}}" class="btn  btn-warning"><i class="fas fa-eye m-0"></i></a>
                                         <div class="dropdown-secondary dropdown d-inline">
                                             <button class="btn  btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
                                             <div class="dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -468,7 +468,7 @@
                                         <p class="task-due"><strong> Due : </strong><strong class="label label-success">23 hours</strong></p>
                                     </div>
                                     <div class="task-board m-0 float-end">
-                                        <a href="invoice.html" class="btn  btn-success"><i class="fas fa-eye m-0"></i></a>
+                                        <a href="{{route('invoice')}}" class="btn  btn-success"><i class="fas fa-eye m-0"></i></a>
                                         <div class="dropdown-secondary dropdown d-inline">
                                             <button class="btn  btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
                                             <div class="dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
@@ -520,7 +520,7 @@
                                         <p class="task-due"><strong> Due : </strong><strong class="label label-primary">23 hours</strong></p>
                                     </div>
                                     <div class="task-board m-0 float-end">
-                                        <a href="invoice.html" class="btn  btn-primary"><i class="fas fa-eye m-0"></i></a>
+                                        <a href="{{route('invoice')}}" class="btn  btn-primary"><i class="fas fa-eye m-0"></i></a>
                                         <div class="dropdown-secondary dropdown d-inline">
                                             <button class="btn  btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
                                             <div class="dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">

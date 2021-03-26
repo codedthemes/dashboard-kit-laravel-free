@@ -18,7 +18,7 @@
                             <h5 class="m-b-10">Dashboard sale</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item">Dashboard sale</li>
                         </ul>
                     </div>

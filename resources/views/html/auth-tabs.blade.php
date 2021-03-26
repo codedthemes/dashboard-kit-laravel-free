@@ -39,7 +39,7 @@
 					</div>
 					<button class="btn  btn-primary mb-4">Signin</button>
 					<button class="btn  btn-outline-primary mb-4 toggle-btn">Create Profile</button>
-					<p class="mb-2 text-muted">Forgot password? <a href="auth-reset-password.html" class="f-w-400">Reset</a></p>
+					<p class="mb-2 text-muted">Forgot password? <a href="route('auth_reset_password'}}" class="f-w-400">Reset</a></p>
 				</div>
 				<div class="toggle-block collapse">
 					<ol class="position-relative carousel-indicators justify-content-center">

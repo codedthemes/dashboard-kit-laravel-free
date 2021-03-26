@@ -38,7 +38,7 @@
 							</div>
 						</div>
 						<button class="btn btn-primary btn-block mb-4">Sign up</button>
-						<p class="mb-2">Already have an account? <a href="auth-signin.html" class="f-w-400">Signin</a></p>
+						<p class="mb-2">Already have an account? <a href="route('auth_signin'}}" class="f-w-400">Signin</a></p>
 					</div>
 				</div>
 			</div>

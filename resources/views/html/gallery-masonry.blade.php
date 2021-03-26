@@ -18,7 +18,7 @@
                             <h5 class="m-b-10">Gallery Masonry</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Gallery</a></li>
                             <li class="breadcrumb-item">Gallery Masonry</li>
                         </ul>

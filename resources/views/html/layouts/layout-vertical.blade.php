@@ -35,7 +35,7 @@
 	<nav class="pc-sidebar @@menuclass">
 		<div class="navbar-wrapper">
 			<div class="m-header">
-				<a href="index.html" class="b-brand">
+				<a href="{{ route('index') }}" class="b-brand">
 					<!-- ========   change your logo hear   ============ -->
 					<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
 					<img src="assets/images/logo-sm.svg" alt="" class="logo logo-sm">

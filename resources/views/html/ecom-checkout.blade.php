@@ -19,7 +19,7 @@
                             <h5 class="m-b-10">Checkout</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">E-Commerce</a></li>
                             <li class="breadcrumb-item">Checkout</li>
                         </ul>

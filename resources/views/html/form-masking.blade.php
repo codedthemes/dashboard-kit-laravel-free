@@ -17,7 +17,7 @@
                             <h5 class="m-b-10">Form Masking</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Form Components</a></li>
                             <li class="breadcrumb-item">Form Masking</li>
                         </ul>

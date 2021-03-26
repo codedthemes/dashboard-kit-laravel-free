@@ -18,7 +18,7 @@
                             <h5 class="m-b-10">Task Board</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">Task</a></li>
                             <li class="breadcrumb-item">Task Board</li>
                         </ul>

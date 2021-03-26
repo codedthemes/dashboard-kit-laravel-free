@@ -44,7 +44,7 @@
 	<header class="pc-header bg-primary @@headerclass">
 		<div class="header-wrapper">
 			<div class="m-header d-flex align-items-center me-2">
-				<a href="index.html" class="b-brand">
+				<a href="{{ route('index') }}" class="b-brand">
 					<!-- ========   change your logo hear   ============ -->
 					<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
 				</a>

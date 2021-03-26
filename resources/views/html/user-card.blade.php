@@ -17,7 +17,7 @@
 							<h5>User card</h5>
 						</div>
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							<li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
 							<li class="breadcrumb-item"><a href="#!">Advance Components</a></li>
 							<li class="breadcrumb-item">User card</li>
 						</ul>

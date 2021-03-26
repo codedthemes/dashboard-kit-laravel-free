@@ -17,7 +17,7 @@
                             <h5 class="m-b-10">To Do</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                             <li class="breadcrumb-item"><a href="#!">To Do</a></li>
                             <li class="breadcrumb-item">To Do</li>
                         </ul>

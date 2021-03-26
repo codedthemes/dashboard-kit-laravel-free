@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<button class="btn  btn-primary mb-4">Register</button>
-				<p class="mb-0 text-muted">Don’t have an account? <a href="auth-signup.html">Signup</a></p>
+				<p class="mb-0 text-muted">Don’t have an account? <a href="{{ route('auth_signup') }}">Signup</a></p>
 			</div>
 		</div>
 	</div>

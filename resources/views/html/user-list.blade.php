@@ -19,7 +19,7 @@
 							<h5>User List</h5>
 						</div>
 						<ul class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							<li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
 							<li class="breadcrumb-item"><a href="#!">user</a></li>
 							<li class="breadcrumb-item">User list</li>
 						</ul>

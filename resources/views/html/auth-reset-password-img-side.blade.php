@@ -32,7 +32,7 @@
 					<button class="btn text-white bg-facebook mb-2 me-2  wid-40 px-0 hei-40 rounded-circle"><i class="fab fa-facebook-f"></i></button>
 					<button class="btn text-white bg-googleplus mb-2 me-2 wid-40 px-0 hei-40 rounded-circle"><i class="fab fa-google-plus-g"></i></button>
 					<button class="btn text-white bg-twitter mb-2  wid-40 px-0 hei-40 rounded-circle"><i class="fab fa-twitter"></i></button>
-					<p class="mb-0 mt-4 text-muted">Don’t have an account? <a href="auth-signup-img-side.html" class="f-w-400">Signup</a></p>
+					<p class="mb-0 mt-4 text-muted">Don’t have an account? <a href="{{ route('auth_signup_img_side' }}" class="f-w-400">Signup</a></p>
 				</div>
 			</div>
 		</div>

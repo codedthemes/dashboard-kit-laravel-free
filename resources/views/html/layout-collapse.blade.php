@@ -19,7 +19,7 @@
                         <h5>Collapsed Layouts</h5>
                     </div>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                         <li class="breadcrumb-item"><a href="#!">Layouts</a></li>
                         <li class="breadcrumb-item">Collapsed Layouts</li>
                     </ul>
