@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <!-- prism css -->
     <link rel="stylesheet" href="assets/css/plugins/prism-coy.css">
     <!-- ekko-lightbox css -->
@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="assets/css/plugins/lightbox.min.css">
     <!-- select2 css -->
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
     <link rel="stylesheet" href="assets/css/layout-nested.css">
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -322,7 +322,7 @@
         <!-- [ Main Content ] end -->
     </div>
 </div>
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- prism Js -->
 <script src="assets/js/plugins/prism.js"></script>
 <!-- Lightbox Js -->
@@ -368,7 +368,7 @@
         templateSelection: formatState
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

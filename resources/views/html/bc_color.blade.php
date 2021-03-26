@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -155,7 +155,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="assets/js/plugins/clipboard.min.js"></script>
 <script>
@@ -177,7 +177,7 @@
         });
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

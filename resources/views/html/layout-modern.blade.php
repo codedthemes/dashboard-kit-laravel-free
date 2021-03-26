@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
     <link rel="stylesheet" href="assets/css/layout-modern.css">
 </head>
-@@include('layouts/layout-modern.html')
+@include('html.layouts.layout-modern')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -278,7 +278,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script>
     $('.chk-indeterminate').prop('indeterminate', true);
 </script>
@@ -294,7 +294,7 @@
         modal.find('.modal-body #message-text').text('hello ' + recipient)
     })
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

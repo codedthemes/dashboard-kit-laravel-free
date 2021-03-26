@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="assets/css/plugins/bootstrap-timepicker.min.css">
     <link rel="stylesheet" href="assets/css/plugins/daterangepicker.css">
@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="assets/css/plugins/bootstrap-select.min.css">
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
     <link rel="stylesheet" href="assets/js/plugins/markdown/bootstrap-markdown.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -220,7 +220,7 @@
     </div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="assets/js/plugins/bootstrap-datepicker.min.js"></script>
 <script src="assets/js/plugins/bootstrap-timepicker.min.js"></script>
 <script src="assets/js/plugins/moment.min.js"></script>
@@ -381,6 +381,6 @@
         });
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')</body>
+@include('html.layouts.footer-bottom-link')</body>
 
 </html>

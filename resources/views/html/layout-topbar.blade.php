@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    @@include('layouts/head.html')
-    @@include('layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
     <link rel="stylesheet" href="assets/css/layout-horizontal.css">
 </head>
-@@include('layouts/layout-topbar.html')
+@include('html.layouts.layout-topbar')
     <!-- [ Main Content ] start -->
     <div class="pc-container">
         <div class="container">
@@ -281,8 +281,8 @@
         </div>
     </div>
     <!-- [ Main Content ] end -->
-    @@include('layouts/footer.html')
-    @@include('layouts/footer-bottom-link.html')
+    @include('html.layouts.footer')
+    @include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

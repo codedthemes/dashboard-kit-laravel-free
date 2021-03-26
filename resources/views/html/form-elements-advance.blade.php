@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/bootstrap-tagsinput.css">
     <link rel="stylesheet" href="assets/css/plugins/bootstrap-tagsinput-typeahead.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -130,7 +130,7 @@
     </div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- bootstrap-tagsinput-latest Js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
 <script src="assets/js/plugins/bootstrap-tagsinput.min.js"></script>
@@ -138,6 +138,6 @@
 <script src="assets/js/plugins/bootstrap-maxlength.js"></script>
 <!-- form-advance custom js -->
 <script src="assets/js/pages/form-advance-custom.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 </html>

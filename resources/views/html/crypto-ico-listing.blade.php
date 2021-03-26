@@ -3,12 +3,12 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="assets/fonts/cryptofont.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -572,7 +572,7 @@
 </div>
 
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
 <script>
     // init Isotope
@@ -610,7 +610,7 @@
     });
 </script>
 
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

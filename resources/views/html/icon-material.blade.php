@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -52,7 +52,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="assets/js/plugins/clipboard.min.js"></script>
 <script type="text/javascript">
     var iconlist = ['3d_rotation', 'accessibility', 'accessibility_new', 'accessible', 'account_balance', 'account_balance_wallet', 'account_box', 'account_circle', 'add_shopping_cart', 'add_task', 'addchart', 'admin_panel_settings', 'alarm',
@@ -189,7 +189,7 @@
     });
 </script>
 
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

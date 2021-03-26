@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/trumbowyg.min.css">
     <!-- ekko-lightbox css -->
     <link rel="stylesheet" href="assets/css/plugins/ekko-lightbox.css">
     <link rel="stylesheet" href="assets/css/plugins/lightbox.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
     <link rel="stylesheet" href="assets/css/layout-nested.css">
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container sidebar-layouts">
     <div class="pcoded-content">
@@ -1275,7 +1275,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="assets/js/plugins/trumbowyg.min.js"></script>
 <script src="assets/js/plugins/ekko-lightbox.min.js"></script>
 <script src="assets/js/plugins/lightbox.min.js"></script>
@@ -1315,7 +1315,7 @@
         $('.mail-search').slideUp('fast');
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

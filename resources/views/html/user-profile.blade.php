@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -744,14 +744,14 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="assets/js/plugins/select2.full.min.js"></script>
 <script>
     $(function() {
         $(".skill-mlt-select").select2();
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

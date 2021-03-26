@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 </head>
 <!-- [ offline-ui ] start -->
 <div class="auth-wrapper maintance">
@@ -24,6 +24,6 @@
 <!-- Required Js -->
 <script src="assets/js/vendor-all.min.js"></script>
 <script src="assets/js/plugins/bootstrap.min.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 </html>

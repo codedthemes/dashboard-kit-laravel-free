@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
     <!-- Rating css -->
     <link rel="stylesheet" href="assets/css/plugins/bars-1to10.css">
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -2017,7 +2017,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- Rating Js -->
 <script src="assets/js/plugins/jquery.barrating.min.js"></script>
 <!-- Apex Chart -->
@@ -2026,7 +2026,7 @@
 <script src="assets/js/plugins/jquery.peity.min.js"></script>
 <!-- custom-chart js -->
 <script src="assets/js/pages/chart.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

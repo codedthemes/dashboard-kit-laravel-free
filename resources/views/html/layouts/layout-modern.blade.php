@@ -34,7 +34,7 @@
 		<div class="navbar-wrapper">
 			<div class="navbar-content">
 				<ul class="pc-navbar">
-					@@include('./menu-list.html')
+					@include('html.layouts.menu-list')
 				</ul>
 			</div>
 		</div>
@@ -49,7 +49,7 @@
 					<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
 				</a>
 			</div>
-			@@include('./header-content.html')
+			@include('html.layouts.header-content')
 		</div>
 	</header>
 

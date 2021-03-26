@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
     <link rel="stylesheet" href="assets/css/layout-advance.css">
 </head>
-@@include('layouts/layout-advance.html')
+@include('html.layouts.layout-advance')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <!-- [ breadcrumb ] start -->
@@ -278,7 +278,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script>
     $('.chk-indeterminate').prop('indeterminate', true);
 </script>
@@ -296,7 +296,7 @@
 
     })
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

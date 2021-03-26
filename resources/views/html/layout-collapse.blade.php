@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    @@include('layouts/head.html')
-    @@include('layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 </head>
 
-@@include('./layouts/layout-collapse.html')
+@include('html.layouts.layout-collapse')
 
 <!-- [ Main Content ] start -->
 <div class="pc-container">
@@ -280,8 +280,8 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('layouts/footer.html')
-@@include('layouts/footer-bottom-link.html')
+@include('html.layouts.footer')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

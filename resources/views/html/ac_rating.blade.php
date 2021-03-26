@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	@@include('./layouts/head.html')
+	@include('html.layouts.head')
 	<!-- Rating css -->
 	<link rel="stylesheet" href="assets/css/plugins/bars-1to10.css">
 	<link rel="stylesheet" href="assets/css/plugins/bars-horizontal.css">
@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="assets/css/plugins/bars-square.css">
 	<link rel="stylesheet" href="assets/css/plugins/bootstrap-stars.css">
 	<link rel="stylesheet" href="assets/css/plugins/css-stars.css">
-	@@include('./layouts/head-bottom-link.html')
+	@include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
 	<div class="pcoded-content">
@@ -231,11 +231,11 @@
 	</div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- Rating Js -->
 <script src="assets/js/plugins/jquery.barrating.min.js"></script>
 <script src="assets/js/pages/ac-rating.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

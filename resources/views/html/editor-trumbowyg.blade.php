@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 
     <link rel="stylesheet" href="assets/js/plugins/trumbowyg/plugins/colors/ui/trumbowyg.colors.min.css">
     <link rel="stylesheet" href="assets/js/plugins/trumbowyg/plugins/giphy/ui/trumbowyg.giphy.min.css">
     <link rel="stylesheet" href="assets/js/plugins/trumbowyg/ui/trumbowyg.min.css">
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -64,7 +64,7 @@
     </div>
 </div>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- trumbowyg editor -->
 
 <script src="assets/js/plugins/trumbowyg/trumbowyg.min.js"></script>
@@ -121,7 +121,7 @@
         });
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

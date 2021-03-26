@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -711,7 +711,7 @@
     </div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- jquery-validation Js -->
 <script src="assets/js/plugins/jquery.validate.min.js"></script>
 <script src="assets/js/plugins/wizard/jquery-ui-1.10.4.custom.min.js"></script>
@@ -849,7 +849,7 @@
         });
     });
 </script> -->
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

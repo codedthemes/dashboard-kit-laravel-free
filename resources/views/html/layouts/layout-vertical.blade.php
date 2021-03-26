@@ -43,7 +43,7 @@
 			</div>
 			<div class="navbar-content">
 				<ul class="pc-navbar">
-					@@include('./menu-list.html')
+					@include('html.layouts.menu-list')
 				</ul>
 			</div>
 		</div>
@@ -52,7 +52,7 @@
 	<!-- [ Header ] start -->
 	<header class="pc-header @@headerclass">
 		<div class="header-wrapper">
-			@@include('./header-content.html')
+			@include('html.layouts.header-content')
 		</div>
 	</header>
 

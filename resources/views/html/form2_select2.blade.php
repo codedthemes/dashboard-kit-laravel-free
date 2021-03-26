@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <!-- select2 css -->
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -231,12 +231,12 @@
 </section>
 <!--end::Modal-->
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- select2 Js -->
 <script src="assets/js/plugins/select2.full.min.js"></script>
 <!-- form-select-custom Js -->
 <script src="assets/js/pages/form-select-custom.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

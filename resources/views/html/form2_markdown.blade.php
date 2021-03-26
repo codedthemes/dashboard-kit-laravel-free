@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/js/plugins/markdown/bootstrap-markdown.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -74,7 +74,7 @@
     </div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src='assets/js/plugins/markdown/bootstrap-markdown.js'></script>
 <script>
     $.fn.markdown.defaults.iconlibrary = 'fa';
@@ -83,7 +83,7 @@
     $.fn.markdown.defaults.buttons[0][2]['data'][1]['icon']['fa'] = 'fa fa-list-ol';
     $(function() {});
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

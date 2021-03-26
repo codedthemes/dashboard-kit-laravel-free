@@ -39,7 +39,7 @@
 							<img src="assets/images/logo.svg" alt="" class="logo logo-lg">
 						</a>
 					</div>
-					@@include('header-content.html')
+					@include('html.layouts.header-content')
 				</div>
 			</div>
 		</header>

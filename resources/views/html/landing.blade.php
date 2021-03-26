@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
     <link rel="stylesheet" href="assets/css/landing.css">
 </head>
 
@@ -621,7 +621,7 @@
         </div>
     </footer>
     <!-- [ Footer ] end -->
-    @@include('./layouts/footer.html')
+    @include('html.layouts.footer')
     <script src="assets/front/wow.min.js"></script>
 
     <script>
@@ -655,7 +655,7 @@
             }
         });
     </script>
-    @@include('./layouts/footer-bottom-link.html')
+    @include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <!-- prism css -->
     <link rel="stylesheet" href="assets/css/plugins/prism-coy.css">
     <!-- ekko-lightbox css -->
     <link rel="stylesheet" href="assets/css/plugins/ekko-lightbox.css">
     <link rel="stylesheet" href="assets/css/plugins/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/plugins/trumbowyg.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <div class="pc-container">
     <div class="pcoded-content">
@@ -474,7 +474,7 @@
 </div>
 
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- Apex Chart -->
 <!-- trumbowyg editor -->
 <!-- prism Js -->
@@ -521,7 +521,7 @@
         $(this).addClass('active');
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <!-- data tables css -->
     <link rel="stylesheet" href="assets/css/plugins/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="assets/css/plugins/keyTable.bootstrap4.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -867,12 +867,12 @@
     </div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <!-- datatable Js -->
 <script src="assets/js/plugins/jquery.dataTables.min.js"></script>
 <script src="assets/js/plugins/dataTables.bootstrap4.min.js"></script>
 <script src="assets/js/plugins/dataTables.keyTable.min.js"></script>
 <script src="assets/js/pages/data-key-custom.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 </html>

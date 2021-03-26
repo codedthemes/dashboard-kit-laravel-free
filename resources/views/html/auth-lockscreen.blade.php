@@ -3,8 +3,8 @@
 
 <head>
 
-	@@include('./layouts/head.html')
-	@@include('./layouts/head-bottom-link.html')
+	@include('html.layouts.head')
+	@include('html.layouts.head-bottom-link')
 
 </head>
 
@@ -41,7 +41,7 @@
 <script src="assets/js/plugins/bootstrap.min.js"></script>
 <script src="assets/js/plugins/feather.min.js"></script>
 <script src="assets/js/pcoded.min.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 
 </body>
 

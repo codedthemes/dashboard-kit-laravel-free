@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @@include('./layouts/head.html')
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head')
+    @include('html.layouts.head-bottom-link')
 </head>
 <!-- [ offline-ui ] start -->
 <div class="auth-wrapper offline">
@@ -50,7 +50,7 @@
 <script src="assets/js/plugins/bootstrap.min.js"></script>
 <script src="assets/js/pages/TweenMax.min.js"></script>
 <script src="assets/js/pages/jquery.wavify.js"></script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 <script>
     $('#feel-the-wave').wavify({
         color: 'rgba(37, 54, 83, 0.93)',

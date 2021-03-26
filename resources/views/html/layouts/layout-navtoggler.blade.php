@@ -180,7 +180,7 @@
 					<i class="material-icons-two-tone">vertical_split</i>
 				</a>
 			</div>
-			@@include('./header-content.html')
+			@include('html.layouts.header-content')
 		</div>
 	</header>
 

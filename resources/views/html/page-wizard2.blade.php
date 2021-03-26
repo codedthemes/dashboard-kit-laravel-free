@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    @@include('./layouts/head.html')
+    @include('html.layouts.head')
     <link rel="stylesheet" href="assets/css/plugins/smart_wizard.min.css">
     <link rel="stylesheet" href="assets/css/plugins/smart_wizard_theme_dots.min.css">
     <link rel="stylesheet" href="assets/css/plugins/smart_wizard_theme_circles.min.css">
     <link rel="stylesheet" href="assets/css/plugins/smart_wizard_theme_arrows.min.css">
-    @@include('./layouts/head-bottom-link.html')
+    @include('html.layouts.head-bottom-link')
 </head>
-@@include('layouts/layout-vertical.html')
+@include('html.layouts.layout-vertical')
 <!-- [ Main Content ] start -->
 <section class="pc-container">
     <div class="pcoded-content">
@@ -474,7 +474,7 @@
     </div>
 </section>
 <!-- [ Main Content ] end -->
-@@include('./layouts/footer.html')
+@include('html.layouts.footer')
 <script src="assets/js/plugins/jquery.smartWizard.min.js"></script>
 <!-- jquery-validation Js -->
 <script src="assets/js/plugins/jquery.validate.min.js"></script>
@@ -571,7 +571,7 @@
         });
     });
 </script>
-@@include('./layouts/footer-bottom-link.html')
+@include('html.layouts.footer-bottom-link')
 </body>
 
 </html>

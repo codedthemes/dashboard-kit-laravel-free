@@ -3,11 +3,11 @@
     <html lang="en">
 
     <head>
-        @@include('./layouts/head.html')
+        @include('html.layouts.head')
         <link rel="stylesheet" href="assets/css/plugins/flipclock.css">
-        @@include('./layouts/head-bottom-link.html')
+        @include('html.layouts.head-bottom-link')
     </head>
-    @@include('layouts/layout-vertical.html')
+    @include('html.layouts.layout-vertical')
     <!-- [ Main Content ] start -->
     <div class="pc-container">
         <div class="pcoded-content">
@@ -104,7 +104,7 @@
     </div>
 
     <!-- [ Main Content ] end -->
-    @@include('./layouts/footer.html')
+    @include('html.layouts.footer')
     <script src="assets/js/plugins/flipclock.min.js"></script>
     <script>
         // [ flipclock ] start
@@ -135,7 +135,7 @@
         });
         // [ progressbar ] end
     </script>
-    @@include('./layouts/footer-bottom-link.html')
+    @include('html.layouts.footer-bottom-link')
     </body>
 
     </html>
