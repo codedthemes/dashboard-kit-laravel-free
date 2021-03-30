@@ -17,18 +17,6 @@ var gulp = require('gulp'), // main
     htmlmin = require('gulp-htmlmin'); // html minify
 
 
-const layout = {
-    'layouts': 'vertical', // vertical / horizontal
-    'sublayouts': '',
-    'darktheme': 'false', // true / false
-    'rtltheme': 'false', // true / false
-    'bodyclass': '',
-    'menuclass': '',
-    'headerclass': '',
-}
-
-
-
 //  [ scss compiler ] start
 gulp.task('sass', function() {
     // main style css
@@ -187,19 +175,6 @@ gulp.task('build', function() {
 
 //  [ Copy assets ] end
 
-//  [ build html ] start
-gulp.task('build-html', function() {
-    return gulp.src('resources/views/html/*.html')
-        .pipe(fileinclude({
-            context: layout,
-            prefix: '@@',
-            basepath: '@file',
-            indent: true
-        }))
-        .pipe(gulp.dest("public"))
-})
-//  [ build html ] end
-
 //  [ build js ] start
 gulp.task('build-js', function() {
     var layoutjs = gulp.src('resources/assets/js/*.js')
@@ -240,22 +215,6 @@ gulp.task('uglify', function() {
 })
 //  [ uglify js ] end
 
-//  [ minify html ] start
-gulp.task('htmlmin', function() {
-    return gulp.src('resources/views/html/*.html')
-        .pipe(fileinclude({
-            context: layout,
-            prefix: '@@',
-            basepath: '@file',
-            indent: true
-        }))
-        .pipe(htmlmin({
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest("public"))
-})
-//  [ minify html ] end
-
 //  [ image optimizer ] start
 gulp.task('imgmin', function() {
     return gulp.src('resources/assets/img/**/*.{jpg,png}')
@@ -287,13 +246,24 @@ gulp.task('default',
         'build',
         'sass',
         'build-js',
-        'build-html',
         'imgmin',
         compile
     )
 );
 // gulp.parallel('browserSync','watch')
 //  [ Default task ] end
+
+//  [ Build-Production task ] start
+gulp.task(
+    'prod-build',
+    gulp.series(
+        'build',
+        'sass',
+        'build-js',
+        'imgmin'
+    )
+)
+//  [ Build-Production task ] end
 
 //  [ watch minify ] start
 gulp.task('watch-minify', function() {
