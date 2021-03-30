@@ -21,11 +21,11 @@
 							<h4 class="mb-3 f-w-400">Signin</h4>
 							<div class="input-group mb-3">
 								<span class="input-group-text"><i data-feather="mail"></i></span>
-								<input name="email" type="email" class="form-control" placeholder="Email address">
+								<input name="email" type="email" value="demo@codedthemes.com" class="form-control" placeholder="Email address">
 							</div>
 							<div class="input-group mb-4">
 								<span class="input-group-text"><i data-feather="lock"></i></span>
-								<input name="password" type="password" class="form-control" placeholder="Password">
+								<input name="password" type="password" value="demo" class="form-control" placeholder="Password">
 							</div>
 							<div class="form-group  mt-2">
 								<div class="form-check">
