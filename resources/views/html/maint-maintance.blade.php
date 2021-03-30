@@ -12,7 +12,7 @@
                 <div class="text-center">
                     <img src="assets/images/maintance/maintance.png" alt="" class="img-fluid">
                     <h5 class="text-muted my-4">Site Under Maintenance!, Visit after some times</h5>
-                    <form action="index.html">
+                    <form action="{{ route('index') }}">
                         <button class="btn  btn-primary mb-4"><i class="feather icon-refresh-ccw me-2"></i>Reload</button>
                     </form>
                 </div>

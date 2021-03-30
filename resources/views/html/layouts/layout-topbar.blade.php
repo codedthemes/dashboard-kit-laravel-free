@@ -119,7 +119,7 @@
 											<a href="{{ route('user_profile') }}" class="dropdown-item">
 												<span>Profile</span>
 											</a>
-											<a href="{{ route('user_profile-social') }}" class="dropdown-item">
+											<a href="{{ route('user_profile_social') }}" class="dropdown-item">
 												<span>Social Profile</span>
 											</a>
 											<a href="{{ route('user_card') }}" class="dropdown-item">
@@ -178,14 +178,14 @@
 										<div class="col">
 											<h6 class="mega-title">Advance Components</h6>
 											<ul class="pc-mega-list">
-												<li><a class="dropdown_item" href="route('ac_alert') }}"><i class="fas fa-circle"></i> Sweet alert</a></li>
-												<li><a class="dropdown_item" href="route('ac-datepicker_componant') }}"><i class="fas fa-circle"></i> Datepicker</a></li>
-												<li><a class="dropdown_item" href="route('ac_lightbox') }}"><i class="fas fa-circle"></i> Lightbox</a></li>
-												<li><a class="dropdown_item" href="route('ac_notification') }}"><i class="fas fa-circle"></i> Notification</a></li>
-												<li><a class="dropdown_item" href="route('ac_pnotify') }}"><i class="fas fa-circle"></i> Pnotify</a></li>
-												<li><a class="dropdown_item" href="route('ac_rating') }}"><i class="fas fa-circle"></i> Rating</a></li>
-												<li><a class="dropdown_item" href="route('ac_rangeslider') }}"><i class="fas fa-circle"></i> Rangeslider</a></li>
-												<li><a class="dropdown_item" href="route('ac_syntax_highlighter') }}"><i class="fas fa-circle"></i> Syntax highlighter</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_alert') }}"><i class="fas fa-circle"></i> Sweet alert</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_datepicker_componant') }}"><i class="fas fa-circle"></i> Datepicker</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_lightbox') }}"><i class="fas fa-circle"></i> Lightbox</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_notification') }}"><i class="fas fa-circle"></i> Notification</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_pnotify') }}"><i class="fas fa-circle"></i> Pnotify</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_rating') }}"><i class="fas fa-circle"></i> Rating</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_rangeslider') }}"><i class="fas fa-circle"></i> Rangeslider</a></li>
+												<li><a class="dropdown_item" href="{{ route('ac_syntax_highlighter') }}"><i class="fas fa-circle"></i> Syntax highlighter</a></li>
 											</ul>
 										</div>
 									</div>
@@ -358,7 +358,7 @@
 								<a class="pc-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 									<img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
 									<span>
-										<span class="user-name">Joseph William</span>
+										<span class="user-name">{{Auth::user()->name}}</span>
 										<span class="user-desc">Administrator</span>
 									</span>
 								</a>

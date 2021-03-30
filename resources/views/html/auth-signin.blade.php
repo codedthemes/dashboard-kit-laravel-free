@@ -36,8 +36,8 @@
 								</div>
 							</div>
 							<button class="btn btn-block btn-primary mb-4">Signin</button>
-							<p class="mb-2 text-muted">Forgot password? <a href="route('auth_reset_password'}}" class="f-w-400">Reset</a></p>
-							<p class="mb-0 text-muted">Don’t have an account? <a href="route('auth_signup'}}" class="f-w-400">Signup</a></p>
+							<p class="mb-2 text-muted">Forgot password? <a href="{{ route('auth_reset_password')}}" class="f-w-400">Reset</a></p>
+							<p class="mb-0 text-muted">Don’t have an account? <a href="{{ route('auth_signup')}}" class="f-w-400">Signup</a></p>
 						</div>
 					</div>
 				</form>

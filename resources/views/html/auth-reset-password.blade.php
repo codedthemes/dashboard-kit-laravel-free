@@ -22,7 +22,7 @@
 							<input type="email" class="form-control" placeholder="Email address">
 						</div>
 						<button class="btn btn-block btn-primary mb-4">Reset password</button>
-						<p class="mb-0 text-muted">Don’t have an account? <a href="route('auth_signup'}}" class="f-w-400">Signup</a></p>
+						<p class="mb-0 text-muted">Don’t have an account? <a href="{{ route('auth_signup')}}" class="f-w-400">Signup</a></p>
 					</div>
 				</div>
 			</div>

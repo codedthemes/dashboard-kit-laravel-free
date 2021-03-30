@@ -75,28 +75,28 @@
                                         </div>
                                         <ul class="mb-2 nav nav-tab flex-column nav-pills">
                                             <li class="nav-item mail-section">
-                                                <a class="nav-link  active" href="email_inbox.html">
+                                                <a class="nav-link  active" href="{{ route('email_inbox') }}">
                                                     <span><i class="feather icon-inbox"></i>Index</span>
                                                     <span class="float-end">6</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mail-section">
-                                                <a class="nav-link " href="email_inbox.html">
+                                                <a class="nav-link " href="{{ route('email_inbox') }}">
                                                     <span><i class="feather icon-star-on"></i>Starred</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mail-section">
-                                                <a class="nav-link " href="email_inbox.html">
+                                                <a class="nav-link " href="{{ route('email_inbox') }}">
                                                     <span><i class="feather icon-file-text"></i>Drafts</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mail-section">
-                                                <a class="nav-link " href="email_inbox.html">
+                                                <a class="nav-link " href="{{ route('email_inbox') }}">
                                                     <span><i class="feather icon-navigation"></i>Sent Mail</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item mail-section">
-                                                <a class="nav-link " href="email_inbox.html">
+                                                <a class="nav-link " href="{{ route('email_inbox') }}">
                                                     <span><i class="feather icon-trash-2"></i>Trash</span>
                                                 </a>
                                             </li>

@@ -170,7 +170,7 @@
 	</ul>
 </li>
 <li class="pc-item">
-	<a href="{{ route('form-validation') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">fact_check</i></span><span class="pc-mtext">Form Validation</span></a>
+	<a href="{{ route('form_validation') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">fact_check</i></span><span class="pc-mtext">Form Validation</span></a>
 </li>
 <li class="pc-item"><a href="{{ route('image_crop') }}" class="pc-link "><span class="pc-micon"><i class="material-icons-two-tone">picture_in_picture_alt</i></span><span class="pc-mtext">Image cropper</span></a></li>
 <li class="pc-item pc-hasmenu">

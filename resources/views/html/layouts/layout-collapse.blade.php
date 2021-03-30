@@ -49,24 +49,24 @@
 								<a href="#!" class="pc-link">Dashboard<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
 									<li class="pc-item"><a class="pc-link" href="{{ route('index') }}">Sales</a></li>
-									<li class="pc-item"><a class="pc-link" href="dashboard-analytics.html">Analytics</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('dashboard_analytics') }}">Analytics</a></li>
 								</ul>
 							</li>
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link ">Widget<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="widget-statistic.html">Statistic</a></li>
-									<li class="pc-item"><a class="pc-link" href="widget-data.html">Data</a></li>
-									<li class="pc-item"><a class="pc-link" href="widget-chart.html">Chart</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('widget_statistic') }}">Statistic</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('widget_data') }}">Data</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('widget_chart') }}">Chart</a></li>
 								</ul>
 							</li>
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link ">User<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="user-profile.html">Profile</a></li>
-									<li class="pc-item"><a class="pc-link" href="user-profile-social.html">Social Profile</a></li>
-									<li class="pc-item"><a class="pc-link" href="user-card.html">User Card</a></li>
-									<li class="pc-item"><a class="pc-link" href="user-list.html">User List</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('user_profile') }}">Profile</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('user_profile_social') }}">Social Profile</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('user_card') }}">User Card</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('user_list') }}">User List</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -77,68 +77,68 @@
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link">Basic<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="bc_alert.html">Alert</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_button.html">Button</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_badges.html">Badges</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_breadcrumb-pagination.html">Breadcrumb & paggination</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_card.html">Cards</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_collapse.html">Collapse</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_carousel.html">Carousel</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_grid.html">Grid system</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_progress.html">Progress</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_modal.html">Modal</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_spinner.html">Spinner</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_tabs.html">Tabs & pills</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_typography.html">Typography</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_tooltip-popover.html">Tooltip & popovers</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_toasts.html">Toasts</a></li>
-									<li class="pc-item"><a class="pc-link" href="bc_extra.html">Other</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_alert') }}">Alert</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_button') }}">Button</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_badges') }}">Badges</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_breadcrumb_pagination') }}">Breadcrumb & paggination</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_card') }}">Cards</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_collapse') }}">Collapse</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_carousel') }}">Carousel</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_grid') }}">Grid system</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_progress') }}">Progress</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_modal') }}">Modal</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_spinner') }}">Spinner</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_tabs') }}">Tabs & pills</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_typography') }}">Typography</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_tooltip-popover') }}">Tooltip & popovers</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_toasts') }}">Toasts</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('bc_extra') }}">Other</a></li>
 								</ul>
 							</li>
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link">Advance<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="ac_alert.html">Sweet alert</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac-datepicker-componant.html">Datepicker</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac_lightbox.html">Lightbox</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac_notification.html">Notification</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac_pnotify.html">Pnotify</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac_rating.html">Rating</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac_rangeslider.html">Rangeslider</a></li>
-									<li class="pc-item"><a class="pc-link" href="ac_syntax_highlighter.html">Syntax highlighter</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_alert') }}">Sweet alert</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_datepicker_componant') }}">Datepicker</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_lightbox') }}">Lightbox</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_notification') }}">Notification</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_pnotify') }}">Pnotify</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_rating') }}">Rating</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_rangeslider') }}">Rangeslider</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('ac_syntax_highlighter') }}">Syntax highlighter</a></li>
 								</ul>
 							</li>
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link">Icons<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="icon-feather.html">Feather</a></li>
-									<li class="pc-item"><a class="pc-link" href="icon-fontawsome.html">Font Awesome 5</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('icon_feather') }}">Feather</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('icon_fontawsome') }}">Font Awesome 5</a></li>
 								</ul>
 							</li>
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link">Forms Elements<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="form_elements.html">Form Basic</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_basic.html">Form Options</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_input_group.html">Input Groups</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_checkbox.html">Checkbox</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_radio.html">Radio</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_switch.html">Switch</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_megaoption.html">Mega option</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form_elements') }}">Form Basic</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_basic') }}">Form Options</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_input_group') }}">Input Groups</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_checkbox') }}">Checkbox</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_radio') }}">Radio</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_switch') }}">Switch</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_megaoption') }}">Mega option</a></li>
 								</ul>
 							</li>
 							<li class="pc-item pc-hasmenu">
 								<a href="#!" class="pc-link">Forms Plugins<span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 								<ul class="pc-submenu">
-									<li class="pc-item"><a class="pc-link" href="form2_datepicker.html">Datepicker</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_daterangepicker.html">Date Range Picker</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_timepicker.html">Timepicker</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_multipleselectsplitter.html">Multiple Select Splitter</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_select.html">Select</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_select2.html">Select2</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_recaptcha.html">Google reCaptcha</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_inputmask.html">Input Masks</a></li>
-									<li class="pc-item"><a class="pc-link" href="form2_rangeslider.html">Range Slider</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_datepicker') }}">Datepicker</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_daterangepicker') }}">Date Range Picker</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_timepicker') }}">Timepicker</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_multipleselectsplitter') }}">Multiple Select Splitter</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_select') }}">Select</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_select2') }}">Select2</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_recaptcha') }}">Google reCaptcha</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_inputmask') }}">Input Masks</a></li>
+									<li class="pc-item"><a class="pc-link" href="{{ route('form2_rangeslider') }}">Range Slider</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -146,13 +146,13 @@
 					<li class="pc-item pc-hasmenu">
 						<a href="#!" class="pc-link "><span class="pc-micon"><i data-feather="grid"></i></span><span class="pc-mtext">Bootstrap table</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href="tbl_bootstrap.html">Basic table</a></li>
-							<li class="pc-item"><a class="pc-link" href="tbl_sizing.html">Sizing table</a></li>
-							<li class="pc-item"><a class="pc-link" href="tbl_border.html">Border table</a></li>
-							<li class="pc-item"><a class="pc-link" href="tbl_styling.html">Styling table</a></li>
+							<li class="pc-item"><a class="pc-link" href="{{ route('tbl_bootstrap') }}">Basic table</a></li>
+							<li class="pc-item"><a class="pc-link" href="{{ route('tbl_sizing') }}">Sizing table</a></li>
+							<li class="pc-item"><a class="pc-link" href="{{ route('tbl_border') }}">Border table</a></li>
+							<li class="pc-item"><a class="pc-link" href="{{ route('tbl_styling') }}">Styling table</a></li>
 						</ul>
 					</li>
-					<li class="pc-item"><a href="sample-page.html" class="pc-link "><span class="pc-micon"><i data-feather="sidebar"></i></span><span class="pc-mtext">Sample page</span></a></li>
+					<li class="pc-item"><a href="{{ route('sample_page') }}" class="pc-link "><span class="pc-micon"><i data-feather="sidebar"></i></span><span class="pc-mtext">Sample page</span></a></li>
 				</ul>
 			</div>
 		</div>

@@ -219,7 +219,7 @@
 			<a class="pc-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 				<img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
 				<span>
-					<span class="user-name">Joseph William</span>
+					<span class="user-name">{{Auth::user()->name}}</span>
 					<span class="user-desc">Administrator</span>
 				</span>
 			</a>
@@ -227,16 +227,16 @@
 				<div class=" dropdown-header">
 					<h5 class="text-overflow m-0"><span class="badge bg-light-success">Pro</span></h5>
 				</div>
-				<a href="user-profile.html" class="dropdown-item">
+				<a href="{{ route('user_profile') }}" class="dropdown-item">
 					<i class="material-icons-two-tone">account_circle</i>
 					<span>Profile</span>
 				</a>
 
-				<a href="auth-lockscreen.html" class="dropdown-item">
+				<a href="{{ route('auth_lockscreen') }}" class="dropdown-item">
 					<i class="material-icons-two-tone">https</i>
 					<span>Lock Screen</span>
 				</a>
-				<a href="auth-signin-3.html" class="dropdown-item">
+				<a href="{{ route('auth_signin_3') }}" class="dropdown-item">
 					<i class="material-icons-two-tone">chrome_reader_mode</i>
 					<span>Logout</span>
 				</a>

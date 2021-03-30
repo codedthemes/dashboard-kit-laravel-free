@@ -66,7 +66,7 @@
                                 <div class="col-xl-2 col-md-3 mail-left">
                                     <div class="mail-l-content">
                                         <div class="mb-3">
-                                            <a href="route('email_compose')}}" class="btn  btn-rounded btn-outline-primary">+ Compose</a>
+                                            <a href="{{ route('email_compose')}}" class="btn  btn-rounded btn-outline-primary">+ Compose</a>
                                         </div>
                                         <ul class="mb-2 nav nav-tab flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                             <li class="nav-item mail-section">
@@ -191,8 +191,8 @@
                                                                             <a href="#"><i class="feather icon-star ms-2"></i></a>
                                                                         </div>
                                                                     </td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">John Doe</a></td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">Coming Up Next Week</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">John Doe</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">Coming Up Next Week</a></td>
                                                                     <td class="email-time">13:02 PM</td>
                                                                 </tr>
                                                                 <tr class="unread">
@@ -207,9 +207,9 @@
                                                                             <a href="#"><i class="feather icon-star-on text-warning ms-2"></i></a>
                                                                         </div>
                                                                     </td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">Google Inc</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">Google Inc</a></td>
                                                                     <td>
-                                                                        <a href="route('email_read')}}" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer</a>
+                                                                        <a href="{{ route('email_read')}}" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer</a>
                                                                         <div><a href="#!" class="mail-attach"><i class="feather icon-image me-2"></i>user.png</a>
                                                                             <a href="#!" class="mail-attach ms-2"><i class="feather icon-file-text me-2"></i>file.doc</a>
                                                                         </div>
@@ -229,8 +229,8 @@
                                                                             <a href="#"><i class="feather icon-star ms-2"></i></a>
                                                                         </div>
                                                                     </td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">Sara Soudein</a></td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">SVG new updates comes for you</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">Sara Soudein</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">SVG new updates comes for you</a></td>
                                                                     <td class="email-time">00:05 AM</td>
                                                                 </tr>
                                                                 <tr class="read">
@@ -245,8 +245,8 @@
                                                                             <a href="#"><i class="feather icon-star ms-2"></i></a>
                                                                         </div>
                                                                     </td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">Rinky Behl</a></td>
-                                                                    <td><a href="route('email_read')}}" class="email-name waves-effect">Photoshop updates are available</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">Rinky Behl</a></td>
+                                                                    <td><a href="{{ route('email_read')}}" class="email-name waves-effect">Photoshop updates are available</a></td>
                                                                     <td class="email-time">10:01 AM</td>
                                                                 </tr>
                                                                 <tr class="read">

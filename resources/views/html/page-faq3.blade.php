@@ -54,7 +54,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body text-center">
-                            <a href="page-faq3-category.html">
+                            <a href="{{ route('page_faq3_category') }}">
                                 <i class="feather icon-users text-primary d-block h2 mb-3"></i>
                                 <h5>My Account</h5>
                                 <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and</p>
@@ -67,7 +67,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body text-center">
-                            <a href="page-faq3-category.html">
+                            <a href="{{ route('page_faq3_category') }}">
                                 <i class="feather icon-command text-primary d-block h2 mb-3"></i>
                                 <h5>Connect</h5>
                                 <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and</p>
@@ -80,7 +80,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body text-center">
-                            <a href="page-faq3-category.html">
+                            <a href="{{ route('page_faq3_category') }}">
                                 <i class="feather icon-repeat text-primary d-block h2 mb-3"></i>
                                 <h5>Charges & Refunds</h5>
                                 <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and</p>
@@ -93,7 +93,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body text-center">
-                            <a href="page-faq3-category.html">
+                            <a href="{{ route('page_faq3_category') }}">
                                 <i class="feather icon-globe text-primary d-block h2 mb-3"></i>
                                 <h5>International</h5>
                                 <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and</p>
@@ -106,7 +106,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body text-center">
-                            <a href="page-faq3-category.html">
+                            <a href="{{ route('page_faq3_category') }}">
                                 <i class="feather icon-file-text text-primary d-block h2 mb-3"></i>
                                 <h5>Payouts</h5>
                                 <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and</p>
@@ -119,7 +119,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-body text-center">
-                            <a href="page-faq3-category.html">
+                            <a href="{{ route('page_faq3_category') }}">
                                 <i class="feather icon-shield text-primary d-block h2 mb-3"></i>
                                 <h5>Disputes & Fraud</h5>
                                 <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and</p>

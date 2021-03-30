@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-2">
-                                    <a href="help-ticket-details.html" class="me-2 btn btn-sm btn-light-primary"><i class="feather icon-eye me-1"></i>View Ticket</a>
+                                    <a href="{{ route('help_ticket_details') }}" class="me-2 btn btn-sm btn-light-primary"><i class="feather icon-eye me-1"></i>View Ticket</a>
                                     <a href="#" class="me-3 btn btn-sm btn-light-danger"><i class="feather icon-trash-2 me-1"></i>Delete</a>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-2">
-                                    <a href="help-ticket-details.html" class="me-2 btn btn-sm btn-light-primary"><i class="feather icon-eye me-1"></i>View Ticket</a>
+                                    <a href="{{ route('help_ticket_details') }}" class="me-2 btn btn-sm btn-light-primary"><i class="feather icon-eye me-1"></i>View Ticket</a>
                                     <a href="#" class="me-3 btn btn-sm btn-light-danger"><i class="feather icon-trash-2 me-1"></i>Delete</a>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-2">
-                                    <a href="help-ticket-details.html" class="me-2 btn btn-sm btn-light-primary"><i class="feather icon-eye me-1"></i>View Ticket</a>
+                                    <a href="{{ route('help_ticket_details') }}" class="me-2 btn btn-sm btn-light-primary"><i class="feather icon-eye me-1"></i>View Ticket</a>
                                     <a href="#" class="me-3 btn btn-sm btn-light-danger"><i class="feather icon-trash-2 me-1"></i>Delete</a>
                                 </div>
                             </div>

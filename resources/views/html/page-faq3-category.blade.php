@@ -88,7 +88,7 @@
                     <div class="col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <a href="page-faq3-details.html"><h5 class="mb-0">Drag and drop a file with name is no longer working.</h5></a>
+                                <a href="{{ route('page_faq3_details') }}"><h5 class="mb-0">Drag and drop a file with name is no longer working.</h5></a>
                                 <small class="mb-0 text-muted">
                                     updated by:
                                     <a href="#!" class="text-muted font-weight-bold text-h-primary">mom2kjs</a>
@@ -114,10 +114,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <a href="page-knowledge-question.html">
+                            <a href="#!">
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <a href="page-faq3-details.html"><h5 class="mb-0">Can I disable 2FA on my account?</h5></a>
+                                        <a href="{{ route('page_faq3_details') }}"><h5 class="mb-0">Can I disable 2FA on my account?</h5></a>
                                         <small class="mb-0 text-muted">
                                             updated by:
                                             <a href="#!" class="text-muted font-weight-bold text-h-primary">mom2kjs</a>
@@ -145,10 +145,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <a href="page-knowledge-question.html">
+                            <a href="#!">
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <a href="page-faq3-details.html"><h5 class="mb-0">Dropbox for Gmail not showing login screen.</h5></a>
+                                        <a href="{{ route('page_faq3_details') }}"><h5 class="mb-0">Dropbox for Gmail not showing login screen.</h5></a>
                                         <small class="mb-0 text-muted">
                                             updated by:
                                             <a href="#!" class="text-muted font-weight-bold text-h-primary">mom2kjs</a>
@@ -176,10 +176,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <a href="page-knowledge-question.html">
+                            <a href="#!">
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <a href="page-faq3-details.html"><h5 class="mb-0">Drag and drop a file with name is no longer working.</h5></a>
+                                        <a href="{{ route('page_faq3_details') }}"><h5 class="mb-0">Drag and drop a file with name is no longer working.</h5></a>
                                         <small class="mb-0 text-muted">
                                             updated by:
                                             <a href="#!" class="text-muted font-weight-bold text-h-primary">mom2kjs</a>
@@ -207,10 +207,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <a href="page-knowledge-question.html">
+                            <a href="#1">
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <a href="page-faq3-details.html"><h5 class="mb-0">Can I disable 2FA on my account?</h5></a>
+                                        <a href="{{ route('page_faq3_details') }}"><h5 class="mb-0">Can I disable 2FA on my account?</h5></a>
                                         <small class="mb-0 text-muted">
                                             updated by:
                                             <a href="#!" class="text-muted font-weight-bold text-h-primary">mom2kjs</a>
@@ -238,10 +238,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <a href="page-knowledge-question.html">
+                            <a href="#!">
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <a href="page-faq3-details.html"><h5 class="mb-0">Dropbox for Gmail not showing login screen.</h5></a>
+                                        <a href="{{ route('page_faq3_details') }}"><h5 class="mb-0">Dropbox for Gmail not showing login screen.</h5></a>
                                         <small class="mb-0 text-muted">
                                             updated by:
                                             <a href="#!" class="text-muted font-weight-bold text-h-primary">mom2kjs</a>

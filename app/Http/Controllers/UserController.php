@@ -17,7 +17,7 @@ class UserController extends Controller
         $isUserExist = User::where('email', $email)->first();
 
         if($isUserExist){
-            return redirect(route('auth-signup'));
+            return redirect(route('auth_signup'));
         }
         $user = User::create([
             'name' => $name,
@@ -29,7 +29,7 @@ class UserController extends Controller
             Auth::login($user);
             return redirect('/');
         } else {
-            return redirect(route('auth-signup'));
+            return redirect(route('auth_signup'));
         }
     }
     public function signin(Request $request) {
@@ -45,7 +45,7 @@ class UserController extends Controller
                 return redirect('/');        
             }
         } 
-        return redirect(route('auth-signup'));
+        return redirect(route('auth_signup'));
     }
     public function logout(Request $request){
         Auth::logout();
@@ -56,9 +56,9 @@ class UserController extends Controller
     public function dashboard(Request $request){
         // https://laravel.com/docs/8.x/authentication#determining-if-the-current-user-is-authenticated
         if (Auth::check()) {
-            return redirect('/dashboard');
+            return redirect('/index');
         }
-        return redirect('/auth-signin');
+        return redirect('/auth_signin');
     }
 }
 
