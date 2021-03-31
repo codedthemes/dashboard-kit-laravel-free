@@ -33,7 +33,7 @@ Route::get('/auth_signup_3', [App\Http\Controllers\PageController::class, 'auth_
 Route::get('/auth_signup_3_temp', [App\Http\Controllers\PageController::class, 'auth_signup_3_temp'])->name('auth_signup_3_temp');
 Route::get('/auth_signup_img_side', [App\Http\Controllers\PageController::class, 'auth_signup_img_side'])->name('auth_signup_img_side');
 Route::get('/auth_tabs', [App\Http\Controllers\PageController::class, 'auth_tabs'])->name('auth_tabs');
-Route::get('/auth-signout', [App\Http\Controllers\UserController::class, 'logout'])->name('auth-signout');
+Route::get('/auth_signout', [App\Http\Controllers\UserController::class, 'logout'])->name('auth_signout');
 
 Route::middleware([App\Http\Middleware\Authenticate::class])->group(function () {
     Route::get('/ac_alert', [App\Http\Controllers\PageController::class, 'ac_alert'])->name('ac_alert');

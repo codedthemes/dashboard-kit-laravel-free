@@ -236,7 +236,7 @@
 					<i class="material-icons-two-tone">https</i>
 					<span>Lock Screen</span>
 				</a>
-				<a href="{{ route('auth_signin_3') }}" class="dropdown-item">
+				<a href="{{ route('auth_signout') }}" class="dropdown-item">
 					<i class="material-icons-two-tone">chrome_reader_mode</i>
 					<span>Logout</span>
 				</a>
